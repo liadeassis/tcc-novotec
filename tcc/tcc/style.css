@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+body{
+    margin: 0;
+    background-color: #E9E9E9;
+    
+}
+header {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.1); 
+}
+header img{
+    width: 10%;
+    margin-right: auto;
+}
+
+nav ul li{
+    display: inline;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+Nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.cadastro{
+    background-color: #FF9E44;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+h1{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.container{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 10px;
+}
+
+.card{
+    font-size: 20px;
+    background-color: #FFCE52; 
+    margin: 20px;
+    box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.1);  
+    border-radius: 10px;
+}
+
+.card h2{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+ 
+}
+.card h1{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    color: #E66F00;
+    font-size: 30px;
+}
+.fundo{
+    margin: 20px;
+    border-radius: 10px;
+    width: 310px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.card p{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card p span{
+    opacity: 0.8;
+}
+
+
+
+.card a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #E66F00;
+    margin: 10px 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 40px;
+}
+
+/* RODAPE */
+
+footer{
+    background-color: black;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+.box{
+    display: flex;
+    width: 100%;
+    
+}
+
+footer .box .box1{
+    width: 50%;
+    text-align: center;
+    margin: 40px;  
+    
+}
+
+footer, h3{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff;
+
+}
+footer .logo2 img{
+    width: 160px;
+    
+}
