@@ -25,4 +25,10 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
 * Julia Silva: sql p/ armazenar informações no banco de dados, css p/ estilizar pagina de planos, html e php p/ estrutrar o conteúdo do site e conexão do bd e front-end;
 * Gabriella Gomes:
 * Barbara Santos:
-* Ana Luisa Souza: 
+* Ana Luisa Souza:
+
+ ## **Atualização Semanal** 
+ * Julia Silva:
+   1 e 2 semana: realizado html da pag e css.
+   30/10: realizado ajustes do css na pag de planos, realizado banco de dados p/ formulário;
+   
