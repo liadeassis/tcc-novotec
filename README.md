@@ -33,6 +33,7 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
    ** 2 semana: realizado html da pag e css.  <br>
    ** 3 semana: realizado ajustes do css na pag de planos.  <br>
    ** 4 semana: realizado banco de dados p/ formulário.  <br>
-   ** 5 semana: realizado conexão do bd com o formulario e testado.
+   ** 5 semana: realizado conexão do bd com o formulario e testado e atualização do github.
+   
    
    
