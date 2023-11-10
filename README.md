@@ -28,7 +28,8 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
 * Ana Luisa Souza:
 
  ## **Atualização Semanal** 
- * Julia Silva:{
+ * Julia Silva:
+  {
    ** 1 semana: decidido quais linguagens usar, contribuições de cada um e design 
    ** 2 semana: realizado html da pag e css.
    ** 3 semana: realizado ajustes do css na pag de planos.
