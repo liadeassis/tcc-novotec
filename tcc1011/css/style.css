@@ -1,0 +1,144 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+        body {
+            background-color: #e0dada;
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+        }
+
+        h1 {
+            color: #2d2525;
+            font-family: Julius Sans One;
+        }
+
+  @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+        h2{
+            text-align: center;
+        }
+        header {
+            justify-content: space-evenly;
+            display: flex;
+            background-color: #ffffff;
+            box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.1); 
+            max-width: 100%;
+        }
+        .cadastro{
+            background-color: #FF9E44;
+           border-radius:20px;
+        }
+        header img{
+            width:9%;
+            margin-right: auto;
+        }
+        
+        nav ul li{
+            display: inline;
+            font-family: 'Julius Sans One', sans-serif;
+        }
+        
+        Nav ul li a{
+            text-decoration: none;
+            list-style: none;
+            color: black;
+        }
+        
+        input {
+            padding-left:10%; 
+            width:30%;
+            margin:25px;
+            border-radius: 10px;
+            font-family: 'Julius Sans One';
+        }
+        div{
+            display: inline-block;
+            margin-right:5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;  
+            margin-top: 10px;
+        }
+       img{
+            display: flex;
+            width:100%;
+            height:100%;
+            border-radius: 25px;
+            padding-left:10% 25px;
+        }
+        .box{
+            justify-content: space-evenly;
+            display: flex;
+            margin-top:10px;
+        } 
+        .box2{
+           background-color: #FFCE52;
+            font-size:35px;
+            margin:1%;
+            border-radius:15px;
+            height:3%;
+        }
+        .box h1{
+            text-align: center;
+            font-size:30px;
+        }
+        .box p{
+            font-family: Markazi Text;
+            font-size:25px;     
+        }
+        .fundo{
+            margin:1%;
+            background-color: rgb(255, 255, 255);
+            border-radius:10px;
+            text-align: center;
+            justify-content:space-evenly;
+            display: flex;
+            height:75%;
+            padding:1%;
+        }
+        .box1 img{
+            height:120px;
+            padding:2px;
+        }
+        .moda{
+            padding-right:30px;
+            width:90px;
+           
+        }
+        footer{
+            background: #000000;
+            height:204px;
+            justify-content: space-evenly;
+            display: flex;
+        }
+        .box{
+            display: flex;
+            width: 100%;
+            
+        }
+      
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+
+        footer .box .box1{
+            width:30%;
+            text-align: center;
+            margin:50px;  
+        }
+        
+        footer, h3{
+            font-family: 'Julius Sans One', sans-serif;
+            color: #ffffff;
+        }
+        footer .logo2{
+            width:30%;
+            display:flex;
+            margin-left:25%;
+        }
+
+        footer .logo2 img{
+             object-fit: contain;  
+             height:10%;
+             border-radius:1%;
+        }
+        @media screen and (min-width:200px) {
+          }
+          
