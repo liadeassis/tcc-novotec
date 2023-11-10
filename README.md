@@ -28,9 +28,11 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
 * Ana Luisa Souza:
 
  ## **Atualização Semanal** 
- * Julia Silva:
+ * Julia Silva:{
    ** 1 semana: decidido quais linguagens usar, contribuições de cada um e design 
    ** 2 semana: realizado html da pag e css.
    ** 3 semana: realizado ajustes do css na pag de planos.
-   ** 4 semana: realizado banco de dados p/ formulário e conexão.
+   ** 4 semana: realizado banco de dados p/ formulário
+   ** 5 semana: realizado conexão do bd com o formulario e testado.
+   }
    
