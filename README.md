@@ -29,6 +29,8 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
 
  ## **Atualização Semanal** 
  * Julia Silva:
-   1 e 2 semana: realizado html da pag e css.
-   30/10: realizado ajustes do css na pag de planos, realizado banco de dados p/ formulário;
+   ** 1 semana: decidido quais linguagens usar, contribuições de cada um e design 
+   ** 2 semana: realizado html da pag e css.
+   ** 3 semana: realizado ajustes do css na pag de planos.
+   ** 4 semana: realizado banco de dados p/ formulário e conexão.
    
