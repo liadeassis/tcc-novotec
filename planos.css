@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+body{
+    margin: 0;
+    background-color: #E9E9E9;
+    
+}
+header {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.1); 
+}
+header img{
+    width: 10%;
+    margin-right: auto;
+}
+nav{ 
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 5px;
+}
+
+Nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.cadastro{
+    background-color: #FF9E44;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+h1{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.container{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 10px;
+}
+
+.card{
+    font-size: 20px;
+    background-color: #FFCE52; 
+    margin: 20px;
+    box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.1);  
+    border-radius: 10px;
+}
+
+.card h2{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+ 
+}
+.card h1{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    color: #E66F00;
+    font-size: 30px;
+}
+.fundo{
+    margin: 20px;
+    border-radius: 10px;
+    width: 310px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.card p{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card p span{
+    opacity: 0.8;
+}
+
+
+
+.card a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #E66F00;
+    margin: 10px 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 40px;
+}
+
+/* RODAPE */
+
+footer{
+    background-color: black;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+.box{
+    display: flex;
+    width: 100%;
+    
+}
+
+footer .box .box1{
+    width: 50%;
+    text-align: center;
+    margin: 40px;  
+    
+}
+
+footer, h3{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff;
+
+}
+footer .logo2 img{
+    width: 160px;
+}
+
+/* botao noturno */
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+    --dur: 0.3s;
+}
+
+form, .toggle:before, .toggle:after {
+    background: hsl(0,0%,90%);
+}
+form, .toggle {
+    position: relative;
+}
+.curtain, .sr, .toggle:before, .toggle:after {
+    position: absolute;
+}
+.curtain, .toggle:before, .toggle:after {
+    transition: transform var(--dur);
+}
+.curtain, .toggle:before, .toggle:checked:after  {
+    transition-timing-function: ease-out;
+}
+.curtain, .sr {
+    top: 0;
+    left: 0;
+}
+.curtain {
+    background: hsl(0,0%,100%);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+}
+.sr, .toggle {
+    overflow: hidden;
+}
+.sr {
+    clip: rect(1px,1px,1px,1px);
+    color: transparent;
+    width: 1px;
+    height: 1px;
+}
+.toggle {
+    background: currentColor;
+    border-radius: 0.75em;
+    cursor: pointer;
+    width: 3em;
+    height: 1.5em;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.toggle:before, .toggle:after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    top: 0.25em;
+    left: 0.25em;
+    width: 1em;
+    height: 1em;
+}
+.toggle:before, .toggle:checked:after {
+    transition-delay: 0s;
+}
+.toggle:checked:before, .toggle:after {
+    transition-delay: calc(var(--dur) * 0.75);
+    transition-timing-function: cubic-bezier(0.3,1.6,0.5,0.7);
+}
+.toggle:before {
+    transform: translateX(-1.5em);
+}
+.toggle:checked:before {
+    transform: translateX(1.5em);
+}
+.toggle:checked:after {
+    transform: translateX(3em);
+}
+.toggle:checked ~ .curtain {
+    transform: scaleX(1);
+}
+.toggle:focus {
+    outline: transparent;
+}
