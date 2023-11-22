@@ -37,7 +37,7 @@ O projeto será desenvolvido utilizando as seguintes tecnologias:
    ** 5 semana: realizado conexão do bd com o formulario e testado e atualização do github.
 
    * Barbara Santos: <br>
-** 5 semnana: hoje eu fiz uma parte, do topo, alinhando as partes <br>
+** 5 semana: hoje eu fiz uma parte, do topo, alinhando as partes <br>
 dos seguintes que estão na pagina inicial.<br>
 ** 6 semana: tentei arrumar o botao, estilei melhor o site, <br> e agora só falta colocar responsivo.
 
